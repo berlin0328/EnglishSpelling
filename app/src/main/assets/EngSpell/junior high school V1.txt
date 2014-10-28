@@ -1,376 +1,376 @@
- I ,  我
- you ,  你；你們
- he ,  他
- she ,  她
- it ,  它；牠
- we ,  我們
- they ,  他們；它們；牠們
- this ,  這
- that ,  那
- my ,  我的
- your ,  你的
- his ,  他的
- her ,  她的
- our ,  我們的
- their ,  他們的
- it's ,  它的
- Mr. ,  先生
- Mrs. ,  太太
- Miss ,  小姐
- Ms. ,  女士
- family ,  家人；家庭 
- parents ,  雙親
- father ,  父親
- mother ,  母親
- son ,  兒子
- daughter ,  女兒
- brother ,  兄弟
- sister ,  姊妹
- grandfather  ,  祖父
- grandmother  ,  祖母
- child  ,   孩童 
-children, 孩子們
- cousin ,  堂兄弟或姊妹
- aunt ,  姑
- uncle ,  叔
- twins ,  雙胞胎
- friend ,  朋友
- classmate ,  同學
- name ,  名字
- person ,  人
- boy ,  男孩
- girl ,  女孩
- man  ,   男人 
-men, 男人們
- woman  ,   女人 
-women, 女人們
- lady ,  小姐；女士
- husband ,  丈夫
- wife ,  老婆
- teacher ,  教師
- student ,  學生
- police officer ,  警察
- cook ,  廚師
- vendor ,  小販
- fireman ,  消防員
- reporter ,  記者
- housewife ,  家庭主婦
- secretary ,  秘書
- boss ,  老闆；上司
- engineer ,  工程師
- worker ,  工人
- farmer ,  農夫
- businessman ,  商人
- doctor ,  醫生
- nurse ,  護士
- driver ,  司機
- clerk ,  店員
- lawyer ,  律師
- singer ,  歌手
- waiter ,  男服務生
- waitress ,  女服務生
- mailman ,  郵差
- player ,  選手
- coach ,  教練
- salesman ,  推銷員
- astronaut ,  太空人
- shopkeeper ,  店長
- tall ,  高的
- short ,  矮的；短的
- heavy ,  重的；厚的
- thin ,  瘦的；薄的
- happy ,  快樂的
- sad ,  悲傷的
- cute ,  可愛的
- smart ,  聰明的
- stupid ,  愚笨的
- active ,  積極的
- lazy ,  懶惰的
- slow ,  緩慢的
- quick ,  快速的
- cool ,  涼爽的；酷的
- strange ,  奇怪的；陌生的
- old ,  舊的；老的
- new ,  新的
- strong ,  強壯的；堅固的
- weak ,  衰弱的
- kind ,  善良的；仁慈的
- serious ,  認真的；嚴肅的
- strict ,  嚴格的
- good ,  好的
- bad ,  壞的
- crazy ,  瘋狂的
- special ,  特別的
- honest ,  誠實的
- lucky ,  幸運的
- polite ,  禮貌的
- hard-working ,  努力的
- right ,  對的
- wrong ,  錯的
- phone ,  電話
- number ,  數字
- message ,  訊息
- leave a message ,  留言
- cell phone ,  手機
- hello ,  哈囉；喂
- call ,  打電話；叫   一通電話
- good-bye ,  再見
- to ,  向
- how ,  如何
- what ,  什麼
- who , 誰
- yes ,  是
- no ,  不
- not ,  不是
- a  ,  一個
- and ,  和
- these ,  這些
- those ,  那些
- year ,  年
- age ,  年紀
- where ,  哪裡 
- there ,  那裡
- here ,  這裡
- time ,  時間
- clock ,  時鐘
- hour ,  小時
- minute ,  分
- second ,  秒
- morning ,  早晨
- afternoon ,  下午
- evening ,  傍晚
- night ,  晚上
- past ,   過去的
- half ,   一半的
- late ,   遲的
- early ,   早的
- one ,  一
- two ,  二
- three ,  三
- four ,  四
- five ,  五
- six ,  六
- seven ,  七
- eight ,  八
- nine ,  九
- ten ,  十
- eleven ,  十一
- twelve ,  十二
- thirteen ,  十三
- fourteen ,  十四
- fifteen ,  十五
- sixteen ,  十六
- seventeen ,  十七
- eighteen ,  十八
- nineteen ,  十九
- twenty ,  二十
- zero ,  零
- make ,  做；使得
- clean ,  清潔   乾淨的
- help ,  幫忙
- cook ,  煮
- eat ,  吃
- drink ,  喝 
- play ,  玩
- ride ,  騎
- roller-skate ,  溜滑輪 
- sing ,  唱歌
- dance ,  跳舞
- speak ,  說…語言
- talk ,  談話
- see ,  看見
- sleep ,  睡覺
- study ,  研讀
- take ,  帶
- put ,  放
- wash ,  洗
- walk ,  走
- watch ,  看
- write ,  寫
- room ,  房間
- living room ,  客廳
- kitchen ,  廚房
- dining room ,  餐房
- bathroom ,  浴室
- bedroom ,  臥室
- garage ,  車庫
- sofa ,  沙發
- bench ,  長凳
- television ,  電視
- bed ,  床
- light ,  燈
- fan ,  扇子
- park ,  公園
- garden ,  花園
- pond ,  池塘
- tree ,  樹
- home ,  家
- on ,  在…上面
- in ,  在…裡面
- at ,  在～
- under ,  在…下面
- near ,  在…附近
- from ,  從～
- classroom ,  教室
- blackboard ,  黑板
- eraser ,  橡皮擦
- ruler ,  尺
- pen ,  筆
- pencil ,  鉛筆
- pencil case ,  鉛筆盒
- door ,  門
- window ,  窗
- desk ,  書桌
- chair ,  椅子
- table ,  桌子
- computer ,  電腦
- schoolbag ,  書包
- book ,  書
- notebook ,  筆記本
- chalk ,  粉筆
- say ,  說
- do ,  做
- hurry ,  趕快
- sit ,  坐
- stand ,  站
- open ,  打開
- close ,  關閉
- up ,  上
- down ,  下  
- look ,  注視
- meet ,  遇見
- go ,  去
- come ,  來
- sorry ,  抱歉的
- thank ,  謝謝
- read ,  讀
- spell ,  拼字
- have/has ,  有
- work ,  工作
- play ,  玩
- sing ,  唱
- touch ,  碰觸
- swim ,  游泳
- run ,  跑
- sleep ,  睡覺
- eat ,  吃
- menu ,  菜單
- order ,  點餐；訂貨
- meal ,  餐
- bread ,  麵包
- rice ,  米飯
- noodle ,  麵
- fruit ,  水果
- apple ,  蘋果
- lemon ,  檸檬
- banana ,  香蕉
- orange ,  柳橙
- tomato ,  番茄
- vegetable ,  蔬菜
- sandwich ,  三明治
- ham ,  火腿
- hamburger ,  漢堡  
- salad ,  沙拉
- fries ,  薯條
- hot dog ,  熱狗
- pie ,  派
- popcorn ,  爆米花
- butter ,  奶油
- sugar ,  糖
- salt ,  鹽
- meat ,  肉
- chicken ,  雞肉；雞
- fish ,  魚肉；魚
- beef ,  牛肉
- pork ,  豬肉
- pizza ,  披薩
- steak ,  牛排
- tea ,  茶
- egg ,  蛋
- ice cream ,  冰淇淋
- cheese ,  起司
- snack ,  點心
- soup ,  湯
- water ,  水
- milk ,  牛奶
- juice ,  果汁
- cookie ,  餅乾
- candy ,  糖果
- cake ,  蛋糕
- Coke ,  可樂
- coffee ,  咖啡
- hungry ,  飢餓的
- thirsty ,  口渴的
- full ,  飽的；滿的
- fast food ,  速食
- large ,  大的
- medium ,  中的
- delicious ,  美味的
- sweet ,  甜的
- hot ,  熱的
- ice ,  冰的   冰
- breakfast ,  早餐
- lunch ,  午餐
- dinner ,  晚餐
- fork ,  叉子
- chopstick ,  筷子
- spoon ,  湯匙
- knife ,  刀子 
- dish ,  盤
- bowl ,  碗
- glass ,  玻璃杯；眼鏡
- straw ,  吸管
- cup ,  杯
- bottle ,  瓶
- napkin ,  餐巾 
- plate ,  盤子
- many ,  很多
- much ,  很多
- a lot of ,  許多
- some ,  一些
- a little ,  一些
- a few ,  一些
- little ,  很少
- few ,  很少
- piece ,  張；塊
- every ,  每一個
- both ,  兩者都
- dozen ,  一打
- pair ,  雙
- all ,  全部的
- most ,  大部分的
- several ,  幾個；數個
- how much ,  多少
- hundred ,  百
- thousand ,  千
- million ,  百萬
- dollar ,  元
- cent ,  分
- pay ,  付
- cash ,  現金
- credit card ,  信用卡
- bill ,  帳單
- price ,  價錢
- money ,  錢
- change ,  零錢
- pound ,  英鎊
- coin ,  硬幣
- towel ,  毛巾
- key ,  鑰匙
- ball ,  球
- every day ,  每天
- party ,  派對
- card ,  卡片
- present ,  禮物
- gift ,  禮物
- which ,  哪一個
- letter ,  信；字母
- too ,  也；太
- either ,  也
- and ,  和；並且
- but ,  但是；卻
- or ,  或；否則
- birthday ,  生日
- anything ,  任何事；東西
- else ,  其他的
- why ,  為什麼
+ I   我,
+ you   你；你們,
+ he   他,
+ she   她,
+ it   它；牠,
+ we   我們,
+ they   他們；它們；牠們,
+ this   這,
+ that   那,
+ my   我的,
+ your   你的,
+ his   他的,
+ her   她的,
+ our   我們的,
+ their   他們的,
+ it's   它的,
+ Mr.   先生,
+ Mrs.   太太,
+ Miss   小姐,
+ Ms.   女士,
+ family   家人；家庭 ,
+ parents   雙親,
+ father   父親,
+ mother   母親,
+ son   兒子,
+ daughter   女兒,
+ brother   兄弟,
+ sister   姊妹,
+ grandfather    祖父,
+ grandmother    祖母,
+ child     孩童 ,
+children 孩子們,
+ cousin   堂兄弟或姊妹,
+ aunt   姑,
+ uncle   叔,
+ twins   雙胞胎,
+ friend   朋友,
+ classmate   同學,
+ name   名字,
+ person   人,
+ boy   男孩,
+ girl   女孩,
+ man     男人 ,
+men 男人們,
+ woman     女人 ,
+women 女人們,
+ lady   小姐；女士,
+ husband   丈夫,
+ wife   老婆,
+ teacher   教師,
+ student   學生,
+ police officer   警察,
+ cook   廚師,
+ vendor   小販,
+ fireman   消防員,
+ reporter   記者,
+ housewife   家庭主婦,
+ secretary   秘書,
+ boss   老闆；上司,
+ engineer   工程師,
+ worker   工人,
+ farmer   農夫,
+ businessman   商人,
+ doctor   醫生,
+ nurse   護士,
+ driver   司機,
+ clerk   店員,
+ lawyer   律師,
+ singer   歌手,
+ waiter   男服務生,
+ waitress   女服務生,
+ mailman   郵差,
+ player   選手,
+ coach   教練,
+ salesman   推銷員,
+ astronaut   太空人,
+ shopkeeper   店長,
+ tall   高的,
+ short   矮的；短的,
+ heavy   重的；厚的,
+ thin   瘦的；薄的,
+ happy   快樂的,
+ sad   悲傷的,
+ cute   可愛的,
+ smart   聰明的,
+ stupid   愚笨的,
+ active   積極的,
+ lazy   懶惰的,
+ slow   緩慢的,
+ quick   快速的,
+ cool   涼爽的；酷的,
+ strange   奇怪的；陌生的,
+ old   舊的；老的,
+ new   新的,
+ strong   強壯的；堅固的,
+ weak   衰弱的,
+ kind   善良的；仁慈的,
+ serious   認真的；嚴肅的,
+ strict   嚴格的,
+ good   好的,
+ bad   壞的,
+ crazy   瘋狂的,
+ special   特別的,
+ honest   誠實的,
+ lucky   幸運的,
+ polite   禮貌的,
+ hard-working   努力的,
+ right   對的,
+ wrong   錯的,
+ phone   電話,
+ number   數字,
+ message   訊息,
+ leave a message   留言,
+ cell phone   手機,
+ hello   哈囉；喂,
+ call   打電話；叫   一通電話,
+ good-bye   再見,
+ to   向,
+ how   如何,
+ what   什麼,
+ who  誰,
+ yes   是,
+ no   不,
+ not   不是,
+ a    一個,
+ and   和,
+ these   這些,
+ those   那些,
+ year   年,
+ age   年紀,
+ where   哪裡 ,
+ there   那裡,
+ here   這裡,
+ time   時間,
+ clock   時鐘,
+ hour   小時,
+ minute   分,
+ second   秒,
+ morning   早晨,
+ afternoon   下午,
+ evening   傍晚,
+ night   晚上,
+ past    過去的,
+ half    一半的,
+ late    遲的,
+ early    早的,
+ one   一,
+ two   二,
+ three   三,
+ four   四,
+ five   五,
+ six   六,
+ seven   七,
+ eight   八,
+ nine   九,
+ ten   十,
+ eleven   十一,
+ twelve   十二,
+ thirteen   十三,
+ fourteen   十四,
+ fifteen   十五,
+ sixteen   十六,
+ seventeen   十七,
+ eighteen   十八,
+ nineteen   十九,
+ twenty   二十,
+ zero   零,
+ make   做；使得,
+ clean   清潔   乾淨的,
+ help   幫忙,
+ cook   煮,
+ eat   吃,
+ drink   喝 ,
+ play   玩,
+ ride   騎,
+ roller-skate   溜滑輪 ,
+ sing   唱歌,
+ dance   跳舞,
+ speak   說…語言,
+ talk   談話,
+ see   看見,
+ sleep   睡覺,
+ study   研讀,
+ take   帶,
+ put   放,
+ wash   洗,
+ walk   走,
+ watch   看,
+ write   寫,
+ room   房間,
+ living room   客廳,
+ kitchen   廚房,
+ dining room   餐房,
+ bathroom   浴室,
+ bedroom   臥室,
+ garage   車庫,
+ sofa   沙發,
+ bench   長凳,
+ television   電視,
+ bed   床,
+ light   燈,
+ fan   扇子,
+ park   公園,
+ garden   花園,
+ pond   池塘,
+ tree   樹,
+ home   家,
+ on   在…上面,
+ in   在…裡面,
+ at   在～,
+ under   在…下面,
+ near   在…附近,
+ from   從～,
+ classroom   教室,
+ blackboard   黑板,
+ eraser   橡皮擦,
+ ruler   尺,
+ pen   筆,
+ pencil   鉛筆,
+ pencil case   鉛筆盒,
+ door   門,
+ window   窗,
+ desk   書桌,
+ chair   椅子,
+ table   桌子,
+ computer   電腦,
+ schoolbag   書包,
+ book   書,
+ notebook   筆記本,
+ chalk   粉筆,
+ say   說,
+ do   做,
+ hurry   趕快,
+ sit   坐,
+ stand   站,
+ open   打開,
+ close   關閉,
+ up   上,
+ down   下  ,
+ look   注視,
+ meet   遇見,
+ go   去,
+ come   來,
+ sorry   抱歉的,
+ thank   謝謝,
+ read   讀,
+ spell   拼字,
+ have/has   有,
+ work   工作,
+ play   玩,
+ sing   唱,
+ touch   碰觸,
+ swim   游泳,
+ run   跑,
+ sleep   睡覺,
+ eat   吃,
+ menu   菜單,
+ order   點餐；訂貨,
+ meal   餐,
+ bread   麵包,
+ rice   米飯,
+ noodle   麵,
+ fruit   水果,
+ apple   蘋果,
+ lemon   檸檬,
+ banana   香蕉,
+ orange   柳橙,
+ tomato   番茄,
+ vegetable   蔬菜,
+ sandwich   三明治,
+ ham   火腿,
+ hamburger   漢堡  ,
+ salad   沙拉,
+ fries   薯條,
+ hot dog   熱狗,
+ pie   派,
+ popcorn   爆米花,
+ butter   奶油,
+ sugar   糖,
+ salt   鹽,
+ meat   肉,
+ chicken   雞肉；雞,
+ fish   魚肉；魚,
+ beef   牛肉,
+ pork   豬肉,
+ pizza   披薩,
+ steak   牛排,
+ tea   茶,
+ egg   蛋,
+ ice cream   冰淇淋,
+ cheese   起司,
+ snack   點心,
+ soup   湯,
+ water   水,
+ milk   牛奶,
+ juice   果汁,
+ cookie   餅乾,
+ candy   糖果,
+ cake   蛋糕,
+ Coke   可樂,
+ coffee   咖啡,
+ hungry   飢餓的,
+ thirsty   口渴的,
+ full   飽的；滿的,
+ fast food   速食,
+ large   大的,
+ medium   中的,
+ delicious   美味的,
+ sweet   甜的,
+ hot   熱的,
+ ice   冰的   冰,
+ breakfast   早餐,
+ lunch   午餐,
+ dinner   晚餐,
+ fork   叉子,
+ chopstick   筷子,
+ spoon   湯匙,
+ knife   刀子 ,
+ dish   盤,
+ bowl   碗,
+ glass   玻璃杯；眼鏡,
+ straw   吸管,
+ cup   杯,
+ bottle   瓶,
+ napkin   餐巾 ,
+ plate   盤子,
+ many   很多,
+ much   很多,
+ a lot of   許多,
+ some   一些,
+ a little   一些,
+ a few   一些,
+ little   很少,
+ few   很少,
+ piece   張；塊,
+ every   每一個,
+ both   兩者都,
+ dozen   一打,
+ pair   雙,
+ all   全部的,
+ most   大部分的,
+ several   幾個；數個,
+ how much   多少,
+ hundred   百,
+ thousand   千,
+ million   百萬,
+ dollar   元,
+ cent   分,
+ pay   付,
+ cash   現金,
+ credit card   信用卡,
+ bill   帳單,
+ price   價錢,
+ money   錢,
+ change   零錢,
+ pound   英鎊,
+ coin   硬幣,
+ towel   毛巾,
+ key   鑰匙,
+ ball   球,
+ every day   每天,
+ party   派對,
+ card   卡片,
+ present   禮物,
+ gift   禮物,
+ which   哪一個,
+ letter   信；字母,
+ too   也；太,
+ either   也,
+ and   和；並且,
+ but   但是；卻,
+ or   或；否則,
+ birthday   生日,
+ anything   任何事；東西,
+ else   其他的,
+ why   為什麼,

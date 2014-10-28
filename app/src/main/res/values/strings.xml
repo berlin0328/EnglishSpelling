@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">English Spelling</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">英文拼字</string>
+    <string name="action_playmode">設定播放模式</string>
+    <string name="action_selectfiles">選擇英文資料</string>
+    <string name="action_hint">設定提示字數</string>
+    <string name="action_startpoint">選擇播放點</string>
+    <string name="action_retryfailed">重測錯誤的題目</string>
 
 </resources>

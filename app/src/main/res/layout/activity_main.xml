@@ -13,28 +13,73 @@
         android:layout_height="wrap_content"
         android:id="@+id/textViewChi"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:hint="請先選擇資料"
-        android:background="#ffc3ff2c" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="選擇資料"
-        android:id="@+id/loadDataButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="selectFiles" />
+        android:background="#ffc3ff2c"
+        android:layout_below="@+id/textViewFileName"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textViewEng"
-        android:layout_below="@+id/textViewChi"
+        android:id="@+id/textViewFileName"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="46dp"
-        android:background="#fff7ff52" />
+        android:hint="Pease select data first." />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下一個"
+        android:id="@+id/buttonNext"
+        android:onClick="vPlayNext"
+        android:layout_below="@+id/editTextEng"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEng"
+        android:background="#fffff151"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_below="@+id/textViewChi"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewCorrect"
+        android:hint="答對題數"
+        android:textColor="#ff2e35ff"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewRemaining"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewWrong"
+        android:hint="答錯題數"
+        android:textColor="#ffff3440"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewCorrect"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewRemaining"
+        android:hint="總共題數"
+        android:textColor="#ff2e35ff"
+        android:layout_below="@+id/buttonNext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

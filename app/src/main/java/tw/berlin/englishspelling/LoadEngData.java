@@ -6,7 +6,9 @@ import android.util.Log;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Created by berlin on 2014/10/14.
@@ -111,5 +113,25 @@ public class LoadEngData {
         }
 
         return englist.size();
+    }
+
+    public static void randomData(ArrayList<String> englist, ArrayList<String> chilist) {
+        ArrayList<String> randEngList = new ArrayList<String>(englist.size());
+        ArrayList<String> randChiList = new ArrayList<String>(chilist.size());
+        int i, j;
+
+        Random rand = new Random();
+
+        for (i = englist.size(); i > 0; i--) {
+            j = rand.nextInt(i);
+            randEngList.add(englist.get(j));
+            randChiList.add(chilist.get(j));
+
+            englist.remove(j);
+            chilist.remove(j);
+        }
+
+        englist.addAll(randEngList);
+        chilist.addAll(randChiList);
     }
 }
