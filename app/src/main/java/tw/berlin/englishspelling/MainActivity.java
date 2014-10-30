@@ -6,9 +6,11 @@ import android.content.DialogInterface;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.text.InputType;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,6 +26,7 @@ public class MainActivity extends Activity {
     private ArrayList<String> chilist = new ArrayList<String>();
     private ArrayList<String> errenglist = new ArrayList<String>();
     private ArrayList<String> errchilist = new ArrayList<String>();
+    private ArrayList<Character> startLetters = new ArrayList<Character>();
     private int iOpt = 0; // 0: in seq, 1: random
     private int iNextIdx = 0;
     private int iStartIdx = 0;
@@ -33,6 +36,7 @@ public class MainActivity extends Activity {
     private int iCorrect = 0;
     private int iWrong = 0;
     private int iRemaining = 0;
+    private int iTotal = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +61,9 @@ public class MainActivity extends Activity {
         int id = item.getItemId();
 
         switch (id) {
+            case R.id.action_version:
+                showVersion();
+                return true;
             case R.id.action_selectfiles:
                 selectFiles();
                 return true;
@@ -69,12 +76,33 @@ public class MainActivity extends Activity {
             case R.id.action_startpoint:
                 setPlayIndex();
                 return true;
+            case R.id.action_startletter:
+                setStartletter();
+                return true;
             case R.id.action_retryfailed:
                 retryErrList();
                 return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void showVersion() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        String sInfo = null;
+        try {
+            sInfo = getString(R.string.app_name) + " " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT);
+        }
+        builder.setTitle(sInfo)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                    }
+                });
+
+        builder.show();
     }
 
     public void loadFile(String file) {
@@ -196,13 +224,13 @@ public class MainActivity extends Activity {
         iNextIdx = iStartIdx;
         iCorrect = 0;
         iWrong = 0;
-        iRemaining = englist.size();
+        iTotal = iRemaining = englist.size();
         errchilist.clear();
         errenglist.clear();
         tvwrong.setText("答錯"+String.valueOf(iWrong));
         tvcorrect.setText("答對"+String.valueOf(iCorrect));
-        tvremaining.setText("還有"+String.valueOf(iRemaining));
-        vPlayNext(null);
+        tvremaining.setText("還有 "+ iRemaining + " / " + iTotal);
+        vChkAnsAndGetNextQ(null);
     }
 
     public void setHint() {
@@ -245,6 +273,35 @@ public class MainActivity extends Activity {
         builder.show();
     }
 
+    public void vSelectLetter(View view) {
+        CheckBox cb = (CheckBox) view;
+        Character c = cb.getText().toString().charAt(0);
+        if (cb.isChecked() == true) {
+            startLetters.add(c);
+        } else if (startLetters.contains(c)) {
+            startLetters.remove(c);
+        }
+    }
+    public void setStartletter() {
+
+        startLetters.clear();
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        final View view = inflater.inflate(R.layout.select_letter, null);
+        builder.setView(view);
+
+        builder.setTitle("請選擇開頭字母:")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        LoadEngData.getStartLetter(englist, chilist, startLetters);
+                        vStartTest();
+                    }
+                });
+
+        builder.show();
+    }
+
     /**
      *
      * @param i  1~4,  0: no hint,   5: all hint
@@ -253,7 +310,7 @@ public class MainActivity extends Activity {
         iHintCount = i;
     }
 
-    public void vPlayNext(View view) {
+    public void vChkAnsAndGetNextQ(View view) {
         int i;
         TextView tvchi = (TextView) findViewById(R.id.textViewChi);
         EditText eteng = (EditText) findViewById(R.id.editTextEng);
@@ -261,19 +318,16 @@ public class MainActivity extends Activity {
         TextView tvremaining = (TextView) findViewById(R.id.textViewRemaining);
         TextView tvcorrect = (TextView) findViewById(R.id.textViewCorrect);
 
-        if (view != null) {
+        if (view != null && !sEngAnswer.isEmpty()) {
             //  check eng answer
-            if (eteng.getText().toString().equals(sEngAnswer) == false) {
-                final String sErrEng = sEngAnswer;
-                final String sErrChi = sChiQuestion;
-
+            if (eteng.getText().toString().compareToIgnoreCase(sEngAnswer) != 0) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle("正確答案: " + sErrEng)
+                builder.setTitle("正確答案: " + sEngAnswer)
                         .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                errchilist.add(sErrChi);
-                                errenglist.add(sErrEng);
+                                errchilist.add(sChiQuestion);
+                                errenglist.add(sEngAnswer);
                             }
                         });
 
@@ -291,6 +345,8 @@ public class MainActivity extends Activity {
         if (iNextIdx > englist.size() - 1) {
             tvchi.setText("");
             eteng.setText("");
+            sEngAnswer = "";
+            sChiQuestion = "";
             Toast.makeText(getApplicationContext(), "測驗結束, 請重新選擇資料", Toast.LENGTH_LONG).show();
             return;
         }
@@ -299,7 +355,8 @@ public class MainActivity extends Activity {
         sChiQuestion = chilist.get(iNextIdx);
         iNextIdx++;
         iRemaining --;
-        tvremaining.setText("還有 " + String.valueOf(iRemaining));
+        //tvremaining.setText("還有 " + String.valueOf(iRemaining));
+        tvremaining.setText("還有 "+ iRemaining + " / " + iTotal);
 
         tvchi.setText(sChiQuestion);
         if (iHintCount >= ALL_HINET || iHintCount >= sEngAnswer.length()) {

@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="下一個"
         android:id="@+id/buttonNext"
-        android:onClick="vPlayNext"
+        android:onClick="vChkAnsAndGetNextQ"
         android:layout_below="@+id/editTextEng"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

@@ -85,12 +85,6 @@ public class LoadEngData {
                         es = ee = cs = ce = 0;
                         sEng = "";
                         sChi = "";
-
-                        // check if 'i' is english
-                        if ((i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z')) {
-                            sEng += (char)i; // i will be unicode format
-                            es = 1;
-                        }
                     } else if (i != 0x0d && i != 0x0a) {
                         sChi += (char)i;
                     }
@@ -133,5 +127,25 @@ public class LoadEngData {
 
         englist.addAll(randEngList);
         chilist.addAll(randChiList);
+    }
+
+    public static void getStartLetter(ArrayList<String> englist, ArrayList<String> chilist, ArrayList<Character> startLetter) {
+        ArrayList<String> tmpEngList = new ArrayList<String>(englist.size());
+        ArrayList<String> tmpChiList = new ArrayList<String>(chilist.size());
+        int i;
+
+        for (Character c : startLetter) {
+            for (i=0; i < englist.size(); i++) {
+                if (englist.get(i).charAt(0) == Character.toLowerCase(c)) {
+                    tmpEngList.add(englist.get(i));
+                    tmpChiList.add(chilist.get(i));
+                }
+            }
+        }
+
+        englist.clear();
+        chilist.clear();
+        englist.addAll(tmpEngList);
+        chilist.addAll(tmpChiList);
     }
 }

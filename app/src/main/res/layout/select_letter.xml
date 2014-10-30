@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/checkBoxA"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/checkBoxB"
+            android:layout_column="1"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/checkBoxC"
+            android:layout_column="5"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/checkBoxD"
+            android:layout_column="6"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:id="@+id/checkBoxE"
+            android:layout_column="7"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/checkBoxF"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:id="@+id/checkBoxG"
+            android:layout_column="1"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:id="@+id/checkBoxH"
+            android:layout_column="5"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:id="@+id/checkBoxI"
+            android:layout_column="6"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/checkBoxJ"
+            android:layout_column="7"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K"
+            android:id="@+id/checkBoxK"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="vSelectLetter"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:id="@+id/checkBoxL"
+            android:layout_column="1"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:id="@+id/checkBoxM"
+            android:layout_column="5"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:id="@+id/checkBoxN"
+            android:layout_column="6"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:id="@+id/checkBoxO"
+            android:layout_column="7"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P"
+            android:id="@+id/checkBoxP"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q"
+            android:id="@+id/checkBoxQ"
+            android:layout_column="1"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:id="@+id/checkBoxR"
+            android:layout_column="5"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:id="@+id/checkBoxS"
+            android:layout_column="6"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"
+            android:id="@+id/checkBoxT"
+            android:layout_column="7"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U"
+            android:id="@+id/checkBoxU"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/checkBoxV"
+            android:layout_column="1"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:id="@+id/checkBoxW"
+            android:layout_column="5"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:id="@+id/checkBoxX"
+            android:layout_column="6"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y"
+            android:id="@+id/checkBoxY"
+            android:layout_column="7"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z"
+            android:id="@+id/checkBoxZ"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="vSelectLetter" />
+    </TableRow>
+</TableLayout>

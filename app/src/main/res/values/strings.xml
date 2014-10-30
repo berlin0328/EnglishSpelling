@@ -4,8 +4,10 @@
     <string name="app_name">英文拼字</string>
     <string name="action_playmode">設定播放模式</string>
     <string name="action_selectfiles">選擇英文資料</string>
+    <string name="action_version">版本資訊</string>
     <string name="action_hint">設定提示字數</string>
     <string name="action_startpoint">選擇播放點</string>
+    <string name="action_startletter">選擇開頭英文字母</string>
     <string name="action_retryfailed">重測錯誤的題目</string>
 
 </resources>

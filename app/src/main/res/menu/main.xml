@@ -1,6 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity" >
+    <item android:id="@+id/action_version"
+        android:title="@string/action_version"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
     <item android:id="@+id/action_selectfiles"
         android:title="@string/action_selectfiles"
         android:orderInCategory="100"
@@ -8,6 +12,10 @@
     <item android:id="@+id/action_startpoint"
         android:title="@string/action_startpoint"
         android:orderInCategory="105"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_startletter"
+        android:title="@string/action_startletter"
+        android:orderInCategory="106"
         android:showAsAction="never" />
     <item android:id="@+id/action_playmode"
         android:title="@string/action_playmode"
